@@ -1,0 +1,66 @@
+/**�������ɫ*/
+.box .title {
+    border-bottom: 3px solid #A41616 !important;
+    color: #A41616;
+    background-color:White;
+
+}
+/*����*/
+.box .title strong
+{
+	color:#A41616;
+}
+.box .content
+{
+	background-color:White;
+}
+
+.show-info .title {
+    border-bottom: 2px solid #A41616 !important;
+    color: #A41616 !important;
+}
+.show-info .title strong {
+    color: #A41616 !important ;
+}
+.page-title {
+    background-color: #f6f6f6;
+    border: 1px solid #d9e3e5;
+    color: #A41616 !important;
+}
+.sidebar h3 {
+    border-bottom: 1px solid #DDDDDD !important;
+}
+.sidebar {
+    border-color: #DDDDDD #DDDDDD #DDDDDD !important;
+    border-style: solid;
+    border-width: 3px 1px 1px;
+}
+
+.box .content .image-items .image-item img:hover
+{
+	border:1px solid #DDDDDD !important;
+}
+#side-menu .current a, #side-menu .current a:hover {
+   
+    color: #fff;
+    background: #A41616;
+}
+
+.btn-default{
+    background-color: #A41616;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+   
+    text-align: center;
+    border-radius: 2px;
+    border: 0;
+    user-select: none;
+}
+
+
+.blue-box .blue-box-title {
+    background: none repeat scroll 0 0 #A41616 !important;
+   
+}

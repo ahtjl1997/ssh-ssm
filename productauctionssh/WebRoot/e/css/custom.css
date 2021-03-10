@@ -1,0 +1,224 @@
+
+.diancan-step
+{
+	color: #aaa;
+    font-family: cursive,����,����;
+    height: 70px;
+    width: 807px;
+    overflow:hidden;
+	
+}
+.diancan-step  strong
+{
+	color: white;
+    display:  block;
+    font-size: 40px;
+    line-height: 60px;
+    padding: 0 23px;
+    float:left;
+}
+
+.diancan-step .step
+{
+	background:url("../images/step.png") no-repeat scroll 0 0;
+	width:267px;
+	height:70px;
+	float:left;
+}
+.diancan-step .step .description,.diancan-step .step-last .description
+{
+	color: #555;
+    font-size: 18px;
+    font-weight: bold;
+    float:left;
+     text-align:center;
+    width:200px;
+}
+
+.diancan-step .step-last
+{
+	background:url("../images/steplast.png") no-repeat scroll 0 0;
+	width:267px;
+	height:70px;
+	float:left;
+}
+
+.canguan-list
+{
+	width: 795px;
+}
+.canguan-list .title
+{
+	border-bottom: 1px solid #ddd;
+    margin: 5px 0 10px;
+    padding-bottom: 5px;
+    width:100%;
+}
+.canguan-list .title .item
+{
+	background-color: white;
+    border: 1px solid #ddd;
+    color: #f90;
+    display: inline;
+    height: 29px;
+    line-height: 29px;
+    padding: 5px
+}
+.canguan-list .content .item
+{
+    border-bottom: 1px solid #ddd;
+    color: #777;
+    padding: 12px ;
+    width: 100%;
+    line-height:25px;
+}
+.canguan-list .content .item .image-area
+{
+	float:left;
+	width:140px;
+}
+.canguan-list .content .item:after{
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.canguan-list .content .item .image-area img
+{
+	height: 110px !important;
+    margin-top: 4px;
+    padding: 0 10px 0 0;
+    width: 130px !important;
+}
+.canguan-list .content .item .text-area
+{
+	float:left;
+	width:420px;
+}
+
+.canguan-list .content .item .text-area strong
+{
+	color: #555;
+    font-size: 16px;
+    display:block;
+	
+}
+.canguan-list .content  .item .text-area .row
+{
+	width:100%;
+	height:28px;
+}
+.canguan-list .content  .item  .text-area .row:after
+{
+	clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.canguan-list  .content .item  .text-area .row .column
+{
+	 float:left;
+	 margin-right:30px;
+	 width:180px;
+}
+.canguan-list .content .item .action-area
+{
+	float:left;
+	width:180px;
+	padding-top:30px;
+}
+.canguan-list .content .item .action-area .renjun
+{
+    color: #555;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight:600;
+}
+.canguan-list .content .item .action-area .renjun .money
+{
+    color: #f70;
+    font-size: 21px;
+}
+.canguan-list .content .item .action-area .action-button a
+{
+    border: 1px solid #ff9933;
+    border-radius: 5px;
+    color: #f60;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 8px 13px;
+}
+.canguan-list .content .item .action-area .action-button a:hover
+{
+    background: none repeat scroll 0 0 #ff9933;
+    border: 1px solid #ff9933;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 8px 13px;
+}
+
+
+.search-box {
+    display: block;
+    height: 43px;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+.search-box .search-text {
+    color: #033568;
+    float: left;
+    font-size: 16px;
+    height: 34px;
+    line-height: 34px;
+    width: 82px;
+}
+.search-box .keyword {
+    display: inline;
+    float: left;
+    height: 34px;
+    position: relative;
+    width: 352px;
+    z-index: 999;
+}
+.search-box .keyword input {
+    border-bottom: 3px solid #A41616;
+    border-left: 3px solid #A41616;
+    border-top: 3px solid #A41616;
+    border-right: 3px solid #A41616;
+    border-width: 3px 3px 3px 3px;
+    color: #A41616;
+    float: left;
+    font: 16px/21px arial;
+    height: 22px;
+    margin: 0;
+    padding: 4px;
+    vertical-align: top;
+    width: 340px;
+}
+.search-box .so {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 92px;
+}
+.sobtn {
+    background-color: #A41616;
+    border-width: 0;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font: 800 14px simsun;
+    height: 36px;
+    margin-left: 0;
+   
+    width: 90px;
+}
+
+
+
+
